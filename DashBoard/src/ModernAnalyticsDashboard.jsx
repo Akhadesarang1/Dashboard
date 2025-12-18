@@ -46,7 +46,7 @@ const ModernAnalyticsDashboard = () => {
         const result = await response.json();
         setData(result);
       } catch (error) {
-        console.error("Error fetching dashboard data:", error);
+        console.error("Error while fetching dashboard data:", error);
       } finally {
         setLoading(false);
       }
