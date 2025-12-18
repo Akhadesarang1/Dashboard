@@ -30,7 +30,7 @@ const ModernAnalyticsDashboard = () => {
         const data = await response.json();
         setFilters(data);
       } catch (error) {
-        console.error("Error fetching filters:", error);
+        console.error("Error while fetching filters:", error);
       }
     };
     fetchFilters();
