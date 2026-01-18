@@ -196,4 +196,4 @@ const ModernAnalyticsDashboard = () => {
   );
 };
 
-export default ModernAnalyticsDashboard;
+export default ModernAnalyticDashboard;
